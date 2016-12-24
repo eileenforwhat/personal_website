@@ -10,10 +10,14 @@
   "author": "eileen li",
   "license": "ISC",
   "scripts": {
+    "lint": "./node_modules/eslint/bin/eslint.js site/",
     "start": "webpack-dev-server"
   },
   "dependencies": {
+    "babel-preset-react": "^6.16.0",
+    "bootstrap": "^4.0.0-alpha.5",
     "react": "^15.4.1",
+    "react-bootstrap": "^0.30.7",
     "react-dom": "^15.4.1",
     "react-redux": "^5.0.1",
     "redux": "^3.6.0",
@@ -33,6 +37,7 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.8.0",
+    "manifest-revision-webpack-plugin": "^0.3.0",
     "webpack": "^1.14.0"
   }
 }
