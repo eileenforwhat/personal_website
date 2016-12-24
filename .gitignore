@@ -54,3 +54,6 @@ docs/_build/
 
 # PyBuilder
 target/
+
+compiled_static/
+site/manifest.json
